@@ -4,3 +4,14 @@ h1 { font-size: 1.8rem; } h2 { margin-top: 2rem; border-bottom: 1px solid #8884;
 nav a { margin-right: 1rem; } code { background: #8882; padding: 0 .3em; border-radius: 4px; }
 .note { background: #ffb30022; border-left: 4px solid #ffb300; padding: .6rem .9rem; border-radius: 6px; }
 footer { margin-top: 3rem; font-size: .9rem; color: #888; }
+.lead { font-size: 1.05rem; }
+.lead .icon { float: left; margin: 0 .9rem .4rem 0; border-radius: 16px; }
+.shots { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 1.2rem 0; }
+.shots figure { margin: 0; text-align: center; font-size: .85rem; }
+.shots img { display: block; margin: 0 auto .4rem; border-radius: 14px; border: 1px solid #8886; }
+.shots.watch figure { width: 170px; }
+.shots.watch img { width: 170px; height: auto; }
+.shots.phone figure { width: 200px; }
+.shots.phone img { width: 200px; height: auto; border-radius: 22px; }
+ol, ul { padding-left: 1.3rem; }
+li { margin: .35rem 0; }
