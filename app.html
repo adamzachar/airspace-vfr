@@ -1,16 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VFR Pilot Watch – About the app</title>
+<title>VFR Pilot Watch – How to use</title>
+<meta name="description" content="How to use VFR Pilot Watch on Apple Watch and iPhone.">
+<meta name="theme-color" content="#07121f">
+<link rel="icon" href="img/icon-v2.png">
+<meta property="og:title" content="VFR Pilot Watch – How to use"><meta property="og:description" content="How to use VFR Pilot Watch on Apple Watch and iPhone."><meta property="og:image" content="img/icon-v2.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav><a href="index.html">Support</a><a href="app.html">About the app</a><a href="privacy.html">Privacy Policy</a></nav>
-
-<h1>VFR Pilot Watch</h1>
-<p class="lead"><img class="icon" src="img/icon-v2.png" alt="App icon" width="72" height="72">
+<header class="nav"><div class="wrap">
+<a class="brand" href="index.html"><img src="img/icon-v2.png" alt=""><span>VFR Pilot Watch</span></a>
+<nav>
+<a class="hide" href="index.html#features"><span class="en">Features</span><span class="cs">Funkce</span></a>
+<a class="on" href="app.html"><span class="en">How to use</span><span class="cs">Ovládání</span></a>
+<a class="hide" href="index.html#support"><span class="en">Support</span><span class="cs">Podpora</span></a>
+<a class="" href="privacy.html"><span class="en">Privacy</span><span class="cs">Soukromí</span></a>
+<button class="lang" id="lang" type="button" aria-label="Language">CS / EN</button>
+</nav></div></header>
+<main class="wrap"><div class="doc"><h1>VFR Pilot Watch</h1>
+<p>
 A pilot's helper on your wrist. Airspace alerts, altimeter hints, nearest airports and weather for VFR flying in Europe, on Apple Watch and iPhone. <a href="#cs">Česky níže</a></p>
 
 <div class="note">
@@ -37,7 +48,7 @@ The iPhone is the companion: it reads METAR and TAF, searches airports and keeps
 
 <h2>Apple Watch</h2>
 <p>Swipe left and right between the pages. Scroll with the Digital Crown.</p>
-<div class="shots watch">
+<div class="shots watches">
 <figure><img src="img/watch-3.png" alt="Nearest METAR on Apple Watch"><figcaption><strong>Weather</strong><br>Nearest METAR reports.</figcaption></figure>
 <figure><img src="img/watch-1.png" alt="Situation page on Apple Watch"><figcaption><strong>Situation</strong><br>Airspace, entry time, QNH, nearest airport.</figcaption></figure>
 <figure><img src="img/watch-2.png" alt="Flight page on Apple Watch"><figcaption><strong>Flight</strong><br>Altitude, QNH, TA/TL, speed, track, flight time.</figcaption></figure>
@@ -52,7 +63,7 @@ The iPhone is the companion: it reads METAR and TAF, searches airports and keeps
 </ul>
 
 <h2>iPhone</h2>
-<div class="shots phone">
+<div class="shots phones">
 <figure><img src="img/iphone-2.png" alt="Weather tab on iPhone"><figcaption><strong>Weather</strong><br>METAR for stations around you.</figcaption></figure>
 <figure><img src="img/iphone-1.png" alt="Airport detail on iPhone"><figcaption><strong>Airports</strong><br>Search, runways, frequencies, METAR.</figcaption></figure>
 <figure><img src="img/iphone-3.png" alt="METAR and TAF detail on iPhone"><figcaption><strong>METAR / TAF</strong><br>Raw and decoded, conditions.</figcaption></figure>
@@ -116,6 +127,14 @@ iPhone je pomocník: čte METAR a TAF, hledá letiště a udržuje data aktuáln
 <li>Spusťte aplikaci před vzletem. Běží na pozadí a za letu vás upozorní.</li>
 </ol>
 
-<footer>© 2026 Adam Zachař. Aeronautical data: Open Flightmaps (OFMA General Users' License). Weather: NOAA AWC. · <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a></footer>
-</body>
-</html>
+</div></main>
+<footer><div class="wrap">
+<div>© 2026 Adam Zachař · <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a></div>
+<div>Aeronautical data: Open Flightmaps (OFMA General Users' License) · Weather: NOAA AWC</div>
+</div></footer>
+<script>
+(function(){var d=document.documentElement,k="lang",s=null;try{s=localStorage.getItem(k)}catch(e){}
+var l=s||((navigator.language||"en").toLowerCase().indexOf("cs")===0?"cs":"en");d.setAttribute("data-lang",l);d.lang=l;
+document.getElementById("lang").addEventListener("click",function(){l=d.getAttribute("data-lang")==="cs"?"en":"cs";d.setAttribute("data-lang",l);d.lang=l;try{localStorage.setItem(k,l)}catch(e){}});})();
+</script>
+</body></html>

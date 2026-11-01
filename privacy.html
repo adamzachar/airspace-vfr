@@ -1,21 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VFR Airspace Watch – Privacy Policy</title>
+<title>VFR Pilot Watch – Privacy Policy</title>
+<meta name="description" content="Privacy Policy of the VFR Pilot Watch app.">
+<meta name="theme-color" content="#07121f">
+<link rel="icon" href="img/icon-v2.png">
+<meta property="og:title" content="VFR Pilot Watch – Privacy Policy"><meta property="og:description" content="Privacy Policy of the VFR Pilot Watch app."><meta property="og:image" content="img/icon-v2.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav><a href="index.html">Support</a><a href="app.html">About the app</a><a href="privacy.html">Privacy Policy</a></nav>
-
-<h1>Privacy Policy</h1>
+<header class="nav"><div class="wrap">
+<a class="brand" href="index.html"><img src="img/icon-v2.png" alt=""><span>VFR Pilot Watch</span></a>
+<nav>
+<a class="hide" href="index.html#features"><span class="en">Features</span><span class="cs">Funkce</span></a>
+<a class="" href="app.html"><span class="en">How to use</span><span class="cs">Ovládání</span></a>
+<a class="hide" href="index.html#support"><span class="en">Support</span><span class="cs">Podpora</span></a>
+<a class="on" href="privacy.html"><span class="en">Privacy</span><span class="cs">Soukromí</span></a>
+<button class="lang" id="lang" type="button" aria-label="Language">CS / EN</button>
+</nav></div></header>
+<main class="wrap"><div class="doc"><h1>Privacy Policy</h1>
 <p>Last updated: 30 October 2026 · <a href="#cs">Česká verze níže</a></p>
 
 <h2>English</h2>
 <p><strong>Provider:</strong> Adam Zachař, <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a></p>
 
-<p><strong>What the app does.</strong> VFR Airspace Watch is a situational-awareness aid for VFR pilots on iPhone and Apple Watch. It shows airspaces, airports, altimeter settings and weather around your position.</p>
+<p><strong>What the app does.</strong> VFR Pilot Watch is a situational-awareness aid for VFR pilots on iPhone and Apple Watch. It shows airspaces, airports, altimeter settings and weather around your position.</p>
 
 <p><strong>Data we do not collect.</strong> The app has no accounts, no advertising, no analytics and no tracking. The provider does not operate a server for the app and does not receive any data from your device.</p>
 
@@ -42,7 +53,7 @@
 <h2 id="cs">Česky</h2>
 <p><strong>Poskytovatel:</strong> Adam Zachař, <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a></p>
 
-<p><strong>K čemu aplikace slouží.</strong> VFR Airspace Watch je pomůcka pro přehled o situaci pro VFR piloty na iPhonu a Apple Watch. Zobrazuje vzdušné prostory, letiště, nastavení výškoměru a počasí v okolí vaší polohy.</p>
+<p><strong>K čemu aplikace slouží.</strong> VFR Pilot Watch je pomůcka pro přehled o situaci pro VFR piloty na iPhonu a Apple Watch. Zobrazuje vzdušné prostory, letiště, nastavení výškoměru a počasí v okolí vaší polohy.</p>
 
 <p><strong>Data, která neshromažďujeme.</strong> Aplikace nemá účty, reklamy, analytiku ani sledování. Poskytovatel neprovozuje pro aplikaci žádný server a žádná data z vašeho zařízení nedostává.</p>
 
@@ -66,6 +77,15 @@
 
 <div class="note"><strong>Důležité upozornění.</strong> Aplikace je jen orientační pomůcka. Není to certifikované letecké vybavení ani navigační přístroj. Oficiálními zdroji jsou AIP, NOTAM a letová informační služba. Letecká data pocházejí z komunitního projektu Open Flightmaps (OFMA General Users' License) a mohou být neúplná nebo zastaralá; počasí pochází z NOAA AWC.</div>
 
-<footer>© 2026 Adam Zachař</footer>
-</body>
-</html>
+
+</div></main>
+<footer><div class="wrap">
+<div>© 2026 Adam Zachař · <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a></div>
+<div>Aeronautical data: Open Flightmaps (OFMA General Users' License) · Weather: NOAA AWC</div>
+</div></footer>
+<script>
+(function(){var d=document.documentElement,k="lang",s=null;try{s=localStorage.getItem(k)}catch(e){}
+var l=s||((navigator.language||"en").toLowerCase().indexOf("cs")===0?"cs":"en");d.setAttribute("data-lang",l);d.lang=l;
+document.getElementById("lang").addEventListener("click",function(){l=d.getAttribute("data-lang")==="cs"?"en":"cs";d.setAttribute("data-lang",l);d.lang=l;try{localStorage.setItem(k,l)}catch(e){}});})();
+</script>
+</body></html>

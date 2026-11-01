@@ -1,38 +1,125 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VFR Airspace Watch – Support</title>
+<title>VFR Pilot Watch – airspace alerts, QNH and weather for VFR pilots</title>
+<meta name="description" content="Airspace alerts, altimeter hints, nearest airports, METAR and TAF for VFR pilots on Apple Watch and iPhone.">
+<meta name="theme-color" content="#07121f">
+<link rel="icon" href="img/icon-v2.png">
+<meta property="og:title" content="VFR Pilot Watch – airspace alerts, QNH and weather for VFR pilots"><meta property="og:description" content="Airspace alerts, altimeter hints, nearest airports, METAR and TAF for VFR pilots on Apple Watch and iPhone."><meta property="og:image" content="img/icon-v2.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav><a href="index.html">Support</a><a href="app.html">About the app</a><a href="privacy.html">Privacy Policy</a></nav>
+<header class="nav"><div class="wrap">
+<a class="brand" href="index.html"><img src="img/icon-v2.png" alt=""><span>VFR Pilot Watch</span></a>
+<nav>
+<a class="hide" href="index.html#features"><span class="en">Features</span><span class="cs">Funkce</span></a>
+<a class="" href="app.html"><span class="en">How to use</span><span class="cs">Ovládání</span></a>
+<a class="hide" href="index.html#support"><span class="en">Support</span><span class="cs">Podpora</span></a>
+<a class="" href="privacy.html"><span class="en">Privacy</span><span class="cs">Soukromí</span></a>
+<button class="lang" id="lang" type="button" aria-label="Language">CS / EN</button>
+</nav></div></header>
 
-<h1>VFR Airspace Watch</h1>
-<p>A situational-awareness aid for VFR pilots on Apple Watch and iPhone: airspace alerts, altimeter hints, nearest airports, METAR, TAF and airport information for Europe.</p>
-
-<div class="note">
-<strong>Important:</strong> This app is an orientation aid only. It is not certified aviation equipment and not a navigation instrument.
-The official sources are the AIP, NOTAM and the flight information service. Aeronautical data is community-maintained
-(Open Flightmaps) and may be incomplete or outdated. Always check before flight.
+<section class="hero"><div class="wrap">
+<div>
+<div class="eyebrow"><span class="en">For VFR pilots · Apple Watch & iPhone</span><span class="cs">Pro VFR piloty · Apple Watch a iPhone</span></div>
+<h1><span class="en">Your cockpit co-pilot, <em>on your wrist.</em></span><span class="cs">Druhý pilot v kabině, <em>na zápěstí.</em></span></h1>
+<p class="lead"><span class="en">Airspace alerts, QNH and transition level, nearest airports and weather. Glanceable on Apple Watch Ultra, detailed on iPhone. No account, no ads, no tracking.</span><span class="cs">Varování před prostory, QNH a přechodová hladina, nejbližší letiště a počasí. Přehledně na Apple Watch Ultra, podrobně na iPhonu. Bez účtu, reklam a sledování.</span></p>
+<div class="cta">
+<a class="btn primary" href="app.html"><span class="en">See how it works</span><span class="cs">Jak se ovládá</span></a>
+<a class="btn ghost" href="#support"><span class="en">Support</span><span class="cs">Podpora</span></a>
 </div>
+<div class="soon"><span class="en">Coming soon to the App Store · Free</span><span class="cs">Brzy v App Store · Zdarma</span></div>
+<div class="badges"><span class="badge">CTR · TMA · ATZ · RMZ</span><span class="badge">METAR · TAF</span><span class="badge">QNH · TA / TL</span><span class="badge">CZ · AT · DE · PL · SK +14</span></div>
+</div>
+<div class="devices">
+<div class="phone"><img src="img/iphone-2.png" alt="Weather tab on iPhone"></div>
+<div class="watch"><img src="img/watch-1.png" alt="Situation page on Apple Watch Ultra"></div>
+</div>
+</div></section>
 
-<h2>Support / Podpora</h2>
-<p>Questions, bug reports, wrong data? Write to <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a>.
-Please include the app version (Data tab → System status), your device and what happened. I usually reply within a few days.</p>
-<p>Otázky, chyby, špatná data? Pište na <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a>.
-Uveďte prosím verzi aplikace (záložka Data → Stav systému), zařízení a co se stalo.</p>
+<section id="features"><div class="wrap">
+<div class="eyebrow"><span class="en">What it does</span><span class="cs">Co umí</span></div>
+<h2><span class="en">Everything you check in flight, one glance away</span><span class="cs">Všechno, co za letu kontrolujete, na jeden pohled</span></h2>
+<p class="sub"><span class="en">Built for the way VFR pilots actually fly: short looks, gloves on, no time for menus.</span><span class="cs">Postavené tak, jak VFR piloti opravdu létají: krátké pohledy, rukavice, žádný čas na menu.</span></p>
+<div class="grid g3">
+<div class="card"><div class="ico a">⚠</div><h3><span class="en">Airspace alerts</span><span class="cs">Varování před prostory</span></h3><p><span class="en">Haptic warning before you enter CTR, TMA, ATZ, RMZ, P/R/D, TRA/TSA and FIS sectors. Filtered by your altitude, with time to entry.</span><span class="cs">Haptické varování před vstupem do CTR, TMA, ATZ, RMZ, P/R/D, TRA/TSA a sektorů FIS. Podle vaší výšky, s časem do vstupu.</span></p></div>
+<div class="card"><div class="ico m">◔</div><h3><span class="en">Altimeter helper</span><span class="cs">Pomocník výškoměru</span></h3><p><span class="en">QNH from the nearest METAR, transition altitude and level (TA / TL) and a hint to switch to STD.</span><span class="cs">QNH z nejbližšího METARu, přechodová výška a hladina (TA / TL) a upozornění na přepnutí na STD.</span></p></div>
+<div class="card"><div class="ico r">✚</div><h3><span class="en">Emergency list</span><span class="cs">Nouzový seznam</span></h3><p><span class="en">One tap: nearest airports with direction arrow, distance, runway length and frequency.</span><span class="cs">Jedno klepnutí: nejbližší letiště se šipkou směru, vzdáleností, délkou dráhy a frekvencí.</span></p></div>
+<div class="card"><div class="ico g">✈</div><h3><span class="en">Automatic flight time</span><span class="cs">Automatický čas letu</span></h3><p><span class="en">Takeoff and landing detected on their own. Flight time and QNH as watch face complications.</span><span class="cs">Vzlet a přistání se poznají samy. Čas letu a QNH jako komplikace na ciferníku.</span></p></div>
+<div class="card"><div class="ico c">☁</div><h3><span class="en">Weather you can read</span><span class="cs">Čitelné počasí</span></h3><p><span class="en">METAR and TAF decoded in plain words: hazards, cloud base, fog risk, trends and runway wind components.</span><span class="cs">METAR a TAF rozluštěné slovy: rizika, základna oblačnosti, riziko mlhy, trendy a složky větru na dráze.</span></p></div>
+<div class="card"><div class="ico b">⌁</div><h3><span class="en">Works offline</span><span class="cs">Funguje offline</span></h3><p><span class="en">Built-in data for Czech Republic, Austria, Germany, Poland and Slovakia. Up to 19 European countries via update.</span><span class="cs">Vestavěná data pro Česko, Rakousko, Německo, Polsko a Slovensko. Až 19 evropských zemí přes aktualizaci.</span></p></div>
+</div></div></section>
 
-<h2>Report wrong aeronautical data / Nahlásit chybu v datech</h2>
-<p>Airspace and airport data comes from <a href="https://www.openflightmaps.org">Open Flightmaps</a>. Errors in the data should be reported there so they are fixed for everyone.
-Weather comes from the NOAA Aviation Weather Center (aviationweather.gov).</p>
+<section class="alt"><div class="wrap split">
+<div>
+<div class="eyebrow"><span class="en">Apple Watch Ultra</span><span class="cs">Apple Watch Ultra</span></div>
+<h2><span class="en">Designed to be read at a glance</span><span class="cs">Navrženo pro pohled na zlomek vteřiny</span></h2>
+<ul class="check">
+<li><span class="en"><b>Situation</b>: airspace, entry countdown, QNH, nearest airport</span><span class="cs"><b>Situace</b>: prostor, odpočet do vstupu, QNH, nejbližší letiště</span></li>
+<li><span class="en"><b>Flight</b>: altitude, TA / TL, speed, track, flight time</span><span class="cs"><b>Let</b>: výška, TA / TL, rychlost, kurz, čas letu</span></li>
+<li><span class="en"><b>Weather</b>: nearest METAR reports</span><span class="cs"><b>Počasí</b>: nejbližší hlášení METAR</span></li>
+<li><span class="en"><b>Runs with the screen off</b>; stop it with one tap to save battery</span><span class="cs"><b>Běží se zhasnutým displejem</b>; jedním klepnutím ho zastavíte a šetříte baterii</span></li>
+<li><span class="en">Complications: <b>Flight time</b> and <b>QNH</b>, green in flight</span><span class="cs">Komplikace: <b>Čas letu</b> a <b>QNH</b>, za letu zelené</span></li>
+</ul>
+</div>
+<div class="shots watches" style="justify-content:center;flex-wrap:wrap;overflow:visible">
+<figure><img src="img/watch-1.png" alt="Situation"><figcaption><span class="en">Situation</span><span class="cs">Situace</span></figcaption></figure>
+<figure><img src="img/watch-2.png" alt="Flight"><figcaption><span class="en">Flight</span><span class="cs">Let</span></figcaption></figure>
+</div>
+</div></section>
 
-<h2>FAQ</h2>
-<p><strong>Does the app need an internet connection?</strong> The watch works offline with the built-in data for Czech Republic, Austria, Germany, Poland and Slovakia. Weather (METAR, TAF) and data updates need a connection.</p>
-<p><strong>Does the Apple Watch need the iPhone?</strong> No for flying with the built-in data. The iPhone is used to download more countries, update data (AIRAC cycle) and send the area around you to the watch.</p>
-<p><strong>Is my location sent anywhere?</strong> Your position stays on your device. To show weather the app asks NOAA for reports in an area around you. See the <a href="privacy.html">Privacy Policy</a>.</p>
+<section><div class="wrap">
+<div class="eyebrow"><span class="en">Screens</span><span class="cs">Obrazovky</span></div>
+<h2><span class="en">iPhone and Apple Watch</span><span class="cs">iPhone a Apple Watch</span></h2>
+<div class="shots phones">
+<figure><img src="img/iphone-2.png" alt=""><figcaption><span class="en">Weather</span><span class="cs">Počasí</span></figcaption></figure>
+<figure><img src="img/iphone-1.png" alt=""><figcaption><span class="en">Airport detail</span><span class="cs">Detail letiště</span></figcaption></figure>
+<figure><img src="img/iphone-3.png" alt=""><figcaption>METAR / TAF</figcaption></figure>
+<figure><img src="img/iphone-4.png" alt=""><figcaption><span class="en">Data</span><span class="cs">Data</span></figcaption></figure>
+</div>
+<div class="shots watches">
+<figure><img src="img/watch-3.png" alt=""><figcaption><span class="en">Weather</span><span class="cs">Počasí</span></figcaption></figure>
+<figure><img src="img/watch-1.png" alt=""><figcaption><span class="en">Situation</span><span class="cs">Situace</span></figcaption></figure>
+<figure><img src="img/watch-2.png" alt=""><figcaption><span class="en">Flight</span><span class="cs">Let</span></figcaption></figure>
+<figure><img src="img/watch-4.png" alt=""><figcaption><span class="en">Emergency</span><span class="cs">Nouze</span></figcaption></figure>
+</div>
+</div></section>
 
-<footer>© 2026 Adam Zachař. Aeronautical data: Open Flightmaps (OFMA General Users' License). Weather: NOAA AWC.</footer>
-</body>
-</html>
+<section class="alt"><div class="wrap">
+<div class="eyebrow"><span class="en">Privacy first</span><span class="cs">Soukromí především</span></div>
+<h2><span class="en">Your position stays on your device</span><span class="cs">Vaše poloha zůstává ve vašem zařízení</span></h2>
+<div class="grid g3">
+<div class="card"><div class="ico g">✓</div><h3><span class="en">No account</span><span class="cs">Bez účtu</span></h3><p><span class="en">Open the app and fly. Nothing to sign up for.</span><span class="cs">Otevřete aplikaci a leťte. Nic se nezakládá.</span></p></div>
+<div class="card"><div class="ico g">✓</div><h3><span class="en">No ads, no tracking</span><span class="cs">Bez reklam a sledování</span></h3><p><span class="en">No analytics, no third-party SDKs.</span><span class="cs">Žádná analytika ani cizí SDK.</span></p></div>
+<div class="card"><div class="ico g">✓</div><h3><span class="en">Local processing</span><span class="cs">Zpracování lokálně</span></h3><p><span class="en">Airspace checks run on your watch. Only a coarse area is sent to NOAA for weather.</span><span class="cs">Kontrola prostorů běží v hodinkách. Pro počasí se NOAA posílá jen hrubá oblast.</span> <a href="privacy.html"><span class="en">Privacy Policy</span><span class="cs">Zásady soukromí</span></a></p></div>
+</div></div></section>
+
+<section id="support"><div class="wrap">
+<div class="eyebrow"><span class="en">Support</span><span class="cs">Podpora</span></div>
+<h2><span class="en">Questions, bugs, wrong data?</span><span class="cs">Otázky, chyby, špatná data?</span></h2>
+<div class="contact">
+<a class="btn primary" href="mailto:adamzach90@gmail.com"><span class="en">Write to support</span><span class="cs">Napsat podpoře</span></a>
+<span class="soon"><span class="en">Please include the app version (Data tab → System status), your device and what happened. Replies usually within a few days.</span><span class="cs">Uveďte prosím verzi aplikace (záložka Data → Stav systému), zařízení a co se stalo. Odpovídám obvykle do pár dní.</span></span>
+</div>
+<h3 style="margin-top:2.4rem"><span class="en">Report wrong aeronautical data</span><span class="cs">Nahlásit chybu v leteckých datech</span></h3>
+<p class="sub" style="margin-bottom:1.4rem"><span class="en">Airspace and airport data comes from <a href="https://www.openflightmaps.org">Open Flightmaps</a>. Report errors there so they are fixed for everyone. Weather comes from the NOAA Aviation Weather Center (aviationweather.gov).</span><span class="cs">Data o prostorech a letištích pocházejí z <a href="https://www.openflightmaps.org">Open Flightmaps</a>. Chyby hlaste tam, ať se opraví pro všechny. Počasí je z NOAA Aviation Weather Center (aviationweather.gov).</span></p>
+<div class="faq">
+<details><summary><span class="en">Does the app need an internet connection?</span><span class="cs">Potřebuje aplikace internet?</span></summary><p><span class="en">The watch works offline with the built-in data. Weather (METAR, TAF) and data updates need a connection.</span><span class="cs">Hodinky fungují offline s vestavěnými daty. Počasí (METAR, TAF) a aktualizace dat potřebují připojení.</span></p></details>
+<details><summary><span class="en">Does the Apple Watch need the iPhone?</span><span class="cs">Potřebují hodinky iPhone?</span></summary><p><span class="en">Not for flying with the built-in data. The iPhone downloads more countries, updates the AIRAC cycle and sends the area around you to the watch.</span><span class="cs">Ne pro létání s vestavěnými daty. iPhone stahuje další země, aktualizuje cyklus AIRAC a posílá do hodinek oblast kolem vás.</span></p></details>
+<details><summary><span class="en">Is my location sent anywhere?</span><span class="cs">Odesílá se někam moje poloha?</span></summary><p><span class="en">Your position stays on your device. To show weather the app asks NOAA for reports in an area around you. See the <a href="privacy.html">Privacy Policy</a>.</span><span class="cs">Poloha zůstává ve vašem zařízení. Pro počasí se NOAA posílá dotaz na oblast kolem vás. Viz <a href="privacy.html">Zásady soukromí</a>.</span></p></details>
+</div>
+<div class="note" style="margin-top:2rem"><strong><span class="en">Important:</span><span class="cs">Důležité:</span></strong> <span class="en">This app is an orientation aid only. It is not certified aviation equipment and not a navigation instrument. The official sources are the AIP, NOTAM and the flight information service. Aeronautical data is community-maintained and may be incomplete or outdated. Always check before flight.</span><span class="cs">Aplikace je jen orientační pomůcka. Není to certifikované letecké vybavení ani navigační přístroj. Oficiálními zdroji jsou AIP, NOTAM a letová informační služba. Letecká data spravuje komunita a mohou být neúplná nebo zastaralá. Vždy ověřte před letem.</span></div>
+</div></section>
+
+<footer><div class="wrap">
+<div>© 2026 Adam Zachař · <a href="mailto:adamzach90@gmail.com">adamzach90@gmail.com</a></div>
+<div>Aeronautical data: Open Flightmaps (OFMA General Users' License) · Weather: NOAA AWC</div>
+</div></footer>
+<script>
+(function(){var d=document.documentElement,k="lang",s=null;try{s=localStorage.getItem(k)}catch(e){}
+var l=s||((navigator.language||"en").toLowerCase().indexOf("cs")===0?"cs":"en");d.setAttribute("data-lang",l);d.lang=l;
+document.getElementById("lang").addEventListener("click",function(){l=d.getAttribute("data-lang")==="cs"?"en":"cs";d.setAttribute("data-lang",l);d.lang=l;try{localStorage.setItem(k,l)}catch(e){}});})();
+</script>
+</body></html>
